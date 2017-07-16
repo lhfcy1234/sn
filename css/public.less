@@ -1,0 +1,167 @@
+@rem:77rem;
+.a-title{
+  height: 60/@rem;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+  overflow: hidden;
+  zoom: 1;
+}
+.borderR{
+  border: 1px solid red;
+}
+.borderB{
+  border: 1px solid blue;
+}
+.topline,.rightline,.bottomline{
+  position: relative;
+}
+.topline:after{
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  content:'';
+  width: 100%;
+  height: 1px;
+  border-top: 1px solid #F2F2F2;
+  -webkit-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+  z-index:5;
+}
+.rightline:after{
+  position: absolute;
+  top: 0;
+  right: 0;
+  box-sizing: border-box;
+  content:'';
+  width: 1px;
+  height: 100%;
+  border-right: 1px solid #F2F2F2;
+  -webkit-transform: scaleX(0.5);
+  transform: scaleX(0.5);
+  z-index:5;
+}
+.bottomline:after{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  box-sizing: border-box;
+  content:'';
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px solid #F2F2F2;
+  -webkit-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+  z-index:5;
+}
+.a_con{
+  display:-webkit-flex;
+  display: flex;
+}
+.a_con div{
+  -webkit-flex:1;
+  flex: 1;
+  height: 100%;
+}
+.a_con div a{
+  display: block;
+  height: 100%;
+}
+.a_con .left{
+  height: 100%;
+}
+.a_con .right{
+  height: 100%;
+}
+.a_con .right a{
+  height: 100%;
+}
+.a-bottom a{
+  -webkit-flex:1;
+  flex: 1;
+  display: block;
+  height: 100%;
+}
+.m{
+  margin: 20/@rem auto;
+}
+.mt{
+  margin-bottom: 20/@rem;
+}
+
+.slide-swiper{
+  height:204/@rem;
+  overflow:hidden;
+  position: relative;
+}
+.slide-swiper ul{
+  width:500%;
+  height:100%;
+}
+.slide-swiper ul li{
+  float:left;
+  width:770/@rem;
+  height:100%;
+}
+.slide-swiper ul li a{
+  display: block;
+  height:100%;
+}
+.dotted{
+  position: absolute;
+  right:0;
+  top:22/@rem;
+  width:78/@rem;
+}
+.dotted span{
+  width:12/@rem;
+  height:12/@rem;
+  background: white;
+  float: left;
+  margin-right: 10/@rem;
+  border-radius: 50%;
+}
+
+.dotted span.swiper-pagination-bullet-active{
+  background: #FFC001;
+}
+/*底部导航*/
+
+#ft{
+  position: fixed;
+  bottom: 0;
+  left:0;
+  width:100%;
+  height:102/@rem;
+  background: white;
+}
+#ft ul{
+  height:100%;
+  display: -webkit-flex;
+  display: flex;
+}
+#ft ul li{
+  flex:1;
+  font-size: 22/@rem;
+  text-align: center;
+}
+#ft ul li a{
+  display: block;
+  color: #242424;
+}
+#ft ul li a img{
+  width:52/@rem;
+  height:50/@rem;
+  display: block;
+  margin:8/@rem auto;
+}
+

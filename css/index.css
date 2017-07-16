@@ -1,0 +1,425 @@
+body {
+  background: #F2F2F2;
+  height: 129.87012987rem;
+}
+.hd {
+  height: 1.16883117rem;
+  background: #FABC09;
+  position: relative;
+}
+.hd .class {
+  width: 0.57142857rem;
+  height: 0.90909091rem;
+  background: url('../img/class.png');
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0.16883117rem;
+  left: 0.31168831rem;
+}
+.hd .shop {
+  width: 0.81818182rem;
+  height: 0.88311688rem;
+  background: url('../img/shop.png');
+  background-size: 100% 100%;
+  position: absolute;
+  top: 0.16883117rem;
+  right: 0.23376623rem;
+}
+/*头部搜索框 start*/
+.hd .search {
+  padding-top: 0.20779221rem;
+  padding-left: 1.24675325rem;
+  padding-right: 1.2987013rem;
+}
+.hd .search .bar {
+  height: 0.81818182rem;
+  background: #FEF1CE;
+  position: relative;
+}
+.hd .search .bar .ico {
+  position: absolute;
+  width: 0.35064935rem;
+  height: 0.36363636rem;
+  background: url('../img/search.png');
+  background-size: 100% 100%;
+  left: 0.25974026rem;
+  top: 0.20779221rem;
+}
+.hd .search .bar form {
+  position: absolute;
+  left: 0.77922078rem;
+  top: 0;
+  width: 3.37662338rem;
+  height: 100%;
+}
+.hd .search .bar form input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background: transparent;
+  outline: none;
+}
+/*头部搜索框 end*/
+/*header end*/
+/*banner start*/
+.banner {
+  height: 4.15584416rem;
+  overflow: hidden;
+  position: relative;
+}
+.banner ul {
+  width: 810%;
+  height: 100%;
+}
+.banner ul li {
+  float: left;
+  width: 10rem;
+  height: 100%;
+}
+.banner ul li a {
+  display: block;
+  height: 100%;
+}
+.banner .list {
+  position: absolute;
+  bottom: 0.25974026rem;
+  right: 0.12987013rem;
+}
+.banner .list span {
+  width: 0.15584416rem;
+  height: 0.15584416rem;
+  float: left;
+  border-radius: 0.07792208rem;
+  background: #F4EFF0;
+  margin: 0 0.02597403rem;
+}
+.banner .list span.swiper-pagination-bullet-active {
+  background: #FFC001;
+}
+/*banner end*/
+/*分类导航 start*/
+.nav {
+  padding-top: 0.33766234rem;
+  padding-bottom: 0.07792208rem;
+  background: #fff;
+}
+.nav ul {
+  height: 1.55844156rem;
+  display: -webkit-flex;
+  display: flex;
+  margin-bottom: 0.36363636rem;
+}
+.nav ul li {
+  -webkit-flex: 1;
+  flex: 1;
+}
+.nav ul li a {
+  display: block;
+  text-align: center;
+  color: #7b7f82;
+  font-size: 0.31168831rem;
+}
+.nav ul li a img {
+  width: 1.06493506rem;
+  height: 1.06493506rem;
+}
+.nav ul li a span {
+  display: block;
+}
+/*分类导航 end*/
+/*苏宁头条 start*/
+.sntop {
+  padding-top: 0.36363636rem;
+  margin: 0.02597403rem 0 0.31168831rem 0;
+  background: #fff;
+}
+.sntop .snico {
+  width: 1.88311688rem;
+  height: 0.83116883rem;
+  background: url('../img/sntop.png');
+  background-size: 100% 100%;
+}
+.sntop .snline {
+  width: 0.02597403rem;
+  height: 0.51948052rem;
+  background: #DCDCDC;
+  margin-top: 0.07792208rem;
+  margin-left: 0.25974026rem;
+}
+.sntop .snlist {
+  width: 7.53246753rem;
+  height: 0.80519481rem;
+  overflow: hidden;
+  position: relative;
+}
+.sntop .snlist ul {
+  position: absolute;
+  left: 0.38961039rem;
+}
+.sntop .snlist ul li {
+  height: 100%;
+}
+.sntop .snlist a {
+  font-size: 0.32467532rem;
+  height: 100%;
+  display: block;
+}
+.sntop .snlist a i {
+  position: absolute;
+  width: 0.1038961rem;
+  height: 0.1038961rem;
+  top: 0.15584416rem;
+  left: -0.25974026rem;
+  border-radius: 0.05194805rem;
+  background: #FFC94C;
+}
+.sntop .snlist a span {
+  color: #333333;
+  display: block;
+  height: 0.36363636rem;
+  position: relative;
+}
+.sntop .snlist a span:last-child {
+  color: #999999;
+}
+/*苏宁头条 end*/
+/*掌上抢 start*/
+.buying {
+  background: #fff;
+  margin-bottom: 0.25974026rem;
+}
+.buying .buyHd {
+  height: 1.03896104rem;
+  background: #fff;
+}
+.buying .buyHd .buyico {
+  width: 1.76623377rem;
+  height: 100%;
+  background: url('../img/buying.png') no-repeat center;
+  background-size: 100% 0.61038961rem;
+  margin-left: 0.25974026rem;
+}
+.buying .buyHd .buyset {
+  width: 1.2987013rem;
+  line-height: 1.03896104rem;
+  height: 100%;
+  color: red;
+  margin: 0 0.19480519rem;
+  font-size: 0.28571429rem;
+}
+.buying .buyHd .buytime {
+  width: 2.20779221rem;
+  font-size: 0.18181818rem;
+  padding-top: 0.25974026rem;
+}
+.buying .buyHd .buytime span {
+  border: 1px solid black;
+}
+.buying .buyHd .buytime span:last-child {
+  border: 1px solid red;
+}
+.buying .buyHd .rob {
+  width: 2.33766234rem;
+  padding-top: 0.25974026rem;
+}
+.buying .buyHd .rob a {
+  width: 1.81818182rem;
+  height: 0.46753247rem;
+  color: #783e18;
+  font-size: 0.28571429rem;
+  background: #ffc001;
+  border-radius: 0.19480519rem;
+  line-height: 0.46753247rem;
+  text-align: center;
+}
+.buying .buyHd .rob i {
+  width: 0.19480519rem;
+  height: 0.36363636rem;
+  background: url("../img/arrowR.png");
+  background-size: 100% 100%;
+  margin-left: 0.07792208rem;
+  margin-top: 0.05194805rem;
+}
+.buying .buylist {
+  height: 3.15584416rem;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 0.25974026rem;
+}
+.buying .buylist ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+}
+.buying .buylist ul li {
+  width: 2.98701299rem !important;
+  float: left;
+  height: 100%  !important;
+  margin-left: 0.12987013rem;
+}
+.buying .buylist ul li a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+/*掌上抢 end*/
+/*超实惠 start*/
+.affordable .a-title {
+  background: url('../img/discount.png');
+  background-size: 100% 100%;
+}
+.affordable .a_con {
+  height: 3.76623377rem;
+}
+.affordable .a_con .right a {
+  height: 1.88311688rem;
+}
+.affordable .a-bottom {
+  height: 1.87012987rem;
+  display: -webkit-flex;
+  display: flex;
+}
+.affordable .a-bottom a {
+  -webkit-flex: 1;
+  flex: 1;
+  display: block;
+  height: 100%;
+}
+/*超实惠 end*/
+/*生活家 start*/
+.lift .a-title {
+  background: url('../img/livehome.png');
+  background-size: 100% 100%;
+}
+.lift .a-bottom {
+  height: 4.01298701rem;
+  display: -webkit-flex;
+  display: flex;
+}
+/*生活家 end*/
+/*特色好货 start*/
+.Good .a-title {
+  background: url('../img/goodCommod.png');
+  background-size: 100% 100%;
+}
+.Good .a_con {
+  height: 3.8961039rem;
+}
+.Good .a-bottom {
+  height: 1.87012987rem;
+  display: -webkit-flex;
+  display: flex;
+}
+/*特色好货 end*/
+/*热门市场 start*/
+.market .a-title {
+  background: url('../img/hotmarket.png');
+  background-size: 100% 100%;
+}
+.market .a_con {
+  height: 3.8961039rem;
+}
+.market .a-bottom {
+  height: 3.23376623rem;
+  display: -webkit-flex;
+  display: flex;
+}
+/*热门市场 end*/
+/*苏宁金融 start*/
+.finance .a-title {
+  background: url('../img/finance.png');
+  background-size: 100% 100%;
+}
+.finance .a_con {
+  height: 3.76623377rem;
+}
+.finance .a_con .right a {
+  height: 1.88311688rem;
+}
+/*苏宁金融 end*/
+/*猜你喜欢 start*/
+.link {
+  padding: 0 0.28571429rem;
+  height: 12.98701299rem;
+}
+.link .l-top {
+  height: 0.45454545rem;
+  position: relative;
+  margin-bottom: 0.25974026rem;
+}
+.link .l-top:before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  content: '';
+  box-sizing: border-box;
+  height: 1px ;
+  width: 100%;
+  border-top: 1px solid #DCDCDC;
+}
+.link .l-top .l-ico {
+  width: 2.5974026rem;
+  height: 0.51948052rem;
+  background: #F2F2F2;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -1.42857143rem;
+  font-size: 0.42857143rem;
+  vertical-align: middle;
+  padding-left: 0.25974026rem;
+}
+.link .l-top .l-ico span {
+  width: 0.44155844rem;
+  height: 0.44155844rem;
+  background: url('../img/like.png');
+  background-size: 100% 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.link .content ul {
+  height: 6.62337662rem;
+  margin-bottom: 0.25974026rem;
+}
+.link .content ul li {
+  width: 4.5974026rem;
+  height: 6.62337662rem;
+  color: #858585;
+  background: #fff;
+  position: relative;
+}
+.link .content ul li.one {
+  float: left;
+}
+.link .content ul li.two {
+  float: right;
+}
+.link .content ul li > a {
+  display: block;
+  width: 4.5974026rem;
+  height: 4.5974026rem;
+}
+.link .content ul li p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  width: 100%;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  font-size: 0.35064935rem;
+  margin-left: 0.12987013rem;
+}
+.link .content ul li .price {
+  margin-left: 0.12987013rem;
+  color: red;
+}
+.link .content ul li .info a.similarity {
+  position: absolute;
+  right: 0.18181818rem;
+  bottom: 0.12987013rem;
+  color: #ffc001;
+  padding: 0.06493506rem 0.33766234rem;
+  border: 1px solid #ffc001;
+  border-radius: 5px;
+}
+/*猜你喜欢 end*/
